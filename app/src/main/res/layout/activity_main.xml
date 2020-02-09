@@ -326,15 +326,21 @@
 
         </LinearLayout>
 
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/real_one"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone">
+
         <LinearLayout
             android:id="@+id/five_layout"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_below="@id/four_layout"
-            android:layout_weight="1"
-            android:visibility="gone"
-            android:orientation="horizontal">
-
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
             <Button
                 android:id="@+id/root"
                 android:layout_width="wrap_content"
@@ -368,6 +374,6 @@
                 android:textSize="30sp" />
 
         </LinearLayout>
-
     </RelativeLayout>
+
 </FrameLayout>

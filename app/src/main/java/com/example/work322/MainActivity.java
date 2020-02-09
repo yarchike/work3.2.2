@@ -6,6 +6,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -55,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        LinearLayout enginer = findViewById(R.id.five_layout);
+        RelativeLayout enginer = findViewById(R.id.real_one);
         switch (item.getItemId()){
             case R.id.engineering:
                 enginer.setVisibility(View.VISIBLE);
